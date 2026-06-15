@@ -2,6 +2,22 @@
 
 > A **Model Context Protocol (MCP) server** that wraps [agent-browser](https://www.npmjs.com/package/agent-browser) CLI, exposing **70+ browser automation tools** over the **Streamable-HTTP transport**. Unlike traditional MCP servers that run as local subprocesses (stdio), this server runs as an independent **network-accessible service** — supporting multiple concurrent AI agents (Open WebUI, n8n, Claude Desktop, etc.) with persistent, isolated headless Chrome sessions for web automation, scraping, testing, and more.
 
+---
+
+## 🎥 Video Demo
+
+Watch a step-by-step walkthrough of setting up and using the agent-browser MCP server:
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=MK0FMbtrtn0">
+    <img src="https://img.youtube.com/vi/MK0FMbtrtn0/maxresdefault.jpg" alt="agent-browser MCP Server Demo" width="640">
+  </a>
+  <br>
+  <a href="https://www.youtube.com/watch?v=MK0FMbtrtn0">
+    📺 Watch on YouTube
+  </a>
+</div>
+
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
 [![FastMCP](https://img.shields.io/badge/FastMCP-3.4.2-green.svg)](https://gofastmcp.com)
 [![Docker](https://img.shields.io/badge/docker-ready-blue.svg)](https://www.docker.com/)
@@ -12,6 +28,7 @@
 
 ## 📋 Table of Contents
 
+- [Video Demo](#-video-demo)
 - [Features](#-features)
 - [Why Streamable-HTTP?](#-why-streamable-http-over-stdio)
 - [Architecture](#-architecture)
